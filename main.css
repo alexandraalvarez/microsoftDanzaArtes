@@ -1,0 +1,46 @@
+/* hola soy un comentario*/
+
+/*centrar el contenido de una página*/
+body{
+	text-align: center;
+	/*font-family: "Indie Flower"; cuando pongo acá la fuente es para todo el texto*/
+}
+
+.cuadrado-color{
+	/*background-color: purple; color en inglés*/
+	/*backgroun-color: #800080; color en hexadecimal*/
+	background-color: rgb(114, 21, 107);/*color con canales de rojo, verde y azul*/
+	padding-bottom: 20px; /*dar espacio*/
+}
+/*cambiar color de texto*/
+p{
+	color: #4f2789;
+}
+
+/*cambiar tipografía para un título o párrafo*/
+h1{
+	font-family: "Indie Flower";
+}
+
+p{
+	font-family: "Indie Flower";
+}
+
+/*cambiando tamaño de imagen logo*/
+.logo{
+	
+	width: 1370px; /*ancho de imagen, se puede poner en pixeles o en % de la imagen total*/
+	height: 400px; /*alto de imagen*/
+}
+
+/*cambiando tamaño de una foto*/
+.foto Valdivia{
+	width: 300px;
+	height: 300px;
+}
+
+/*hacer un separador*/
+.enlaces{
+	border-top: 1px purple dotted; /*tiene que llevar la palabra del tipo de línea (solid/dashed/
+	groove/ridge/solid/dotted/double/inset/outset) para que salga la línea. El color no es obligatorio*/
+}
